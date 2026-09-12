@@ -35,7 +35,7 @@ BugDay-2026/
 
 **สำหรับ Windows:**
 1. เข้าเว็บไซต์ https://www.python.org/downloads/
-2. ดาวน์โหลด Python เวอร์ชันล่าสุด (ตอนนี้คือ 3.12.x)
+2. ดาวน์โหลด Python เวอร์ชันล่าสุด
 3. รันไฟล์ติดตั้ง
 4. **สำคัญ:** ติ๊กเลือก "Add Python to PATH" ก่อนกด Install
 5. หลังติดตั้งเสร็จ เปิด Command Prompt แล้วพิมพ์:
@@ -44,14 +44,42 @@ BugDay-2026/
    ```
    ถ้าขึ้นเวอร์ชันแสดงว่าติดตั้งสำเร็จ
 
+**สำหรับ Mac:**
+
+**วิธีที่ 1: ดาวน์โหลดไฟล์ติดตั้ง**
+1. เข้าเว็บไซต์ https://www.python.org/downloads/
+2. ดาวน์โหลด Python เวอร์ชันล่าสุดสำหรับ macOS
+3. รันไฟล์ติดตั้ง (.pkg)
+4. หลังติดตั้งเสร็จ เปิด Terminal แล้วพิมพ์:
+   ```
+   python3 --version
+   ```
+   ถ้าขึ้นเวอร์ชันแสดงว่าติดตั้งสำเร็จ
+
+**วิธีที่ 2: ใช้ Homebrew**
+เปิด Terminal แล้วพิมพ์:
+```bash
+brew install python
+```
+
 ### 2. ติดตั้ง Libraries ที่จำเป็น
 
+**สำหรับ Windows:**
 เปิด Command Prompt แล้วพิมพ์คำสั่งต่อไปนี้ทีละบรรทัด:
 
 ```bash
 pip install pandas
 pip install faker
 pip install python-dateutil
+```
+
+**สำหรับ Mac:**
+เปิด Terminal แล้วพิมพ์คำสั่งต่อไปนี้ทีละบรรทัด:
+
+```bash
+pip3 install pandas
+pip3 install faker
+pip3 install python-dateutil
 ```
 
 ---
@@ -90,11 +118,19 @@ pip install python-dateutil
 ### ขั้นตอนที่ 3: รัน Python Script
 
 1. บันทึก Python Script ที่ AI สร้างให้ (เช่นชื่อ `generate-data.py`)
-2. เปิด Command Prompt ในโฟลเดอร์โปรเจ็ค
+2. เปิด Command Prompt/Terminal ในโฟลเดอร์โปรเจ็ค
 3. รัน Script ด้วยคำสั่ง:
+
+   **สำหรับ Windows:**
    ```bash
    python generate-data.py
    ```
+
+   **สำหรับ Mac:**
+   ```bash
+   python3 generate-data.py
+   ```
+
 4. Script จะสร้างไฟล์ Output CSV ให้
 
 ### ขั้นตอนที่ 4: ตรวจสอบผลลัพธ์
