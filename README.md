@@ -20,8 +20,8 @@
 BugDay-2026/
 ├── Business Requirement Document.md  # เอกสารความต้องการทางธุรกิจ (BRD)
 ├── family-condition.csv               # รายการเงื่อนไขครอบครัวที่ต้องทดสอบ
-├── spec_v5.2.1.md                     # ตัวอย่าง Spec ที่เขียนให้ AI (ตัวอย่างที่ดี)
-├── generate-data-claude.py           # Python Script ที่สร้างจาก AI (Claude)
+├── spec_v5.2.1.md                     # ตัวอย่าง Spec ที่เขียนให้ AI
+├── generate-data-claude.py           # Python Script ที่สร้างจาก AI
 ├── SCK-insurance.csv                  # ไฟล์ Input สำหรับรัน Script
 ├── SCK_insurance_output_claude.csv    # ไฟล์ Output ตัวอย่างที่สร้างได้
 └── README.md                          # ไฟล์นี้ (คู่มือการใช้งาน)
