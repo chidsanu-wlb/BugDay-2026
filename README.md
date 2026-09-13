@@ -149,8 +149,20 @@ pip3 install python-dateutil
    ```bash
    python3 generate-data.py
    ```
+   ถ้าต้องการรันไฟล์ตัวอย่างที่มีใน repo ให้ใช้คำสั่ง:
+
+   **สำหรับ Windows:**
+   ```bash
+   python generate-data-claude.py
+   ```
+
+   **สำหรับ Mac:**
+   ```bash
+   python3 generate-data-claude.py
+   ```
 
 4. Script จะสร้างไฟล์ Output CSV ให้
+
 
 ### ขั้นตอนที่ 4: ตรวจสอบผลลัพธ์
 
